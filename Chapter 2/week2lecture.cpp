@@ -17,6 +17,7 @@ iResult = dResult; // implicit cast
 cout << iResult << endl;
 
 }
+<<<<<<< HEAD:week2.cpp
  //Example slide 18
 #include <iostream>
 using namespace std; 
@@ -30,3 +31,5 @@ b -= c + a;
 c *= a + b * 3;
 cout << " a[" << a << "] b[" << b << "] c[" << c << "]" << endl;
 }
+=======
+>>>>>>> 6c56fbe20dd89ef77948a318696e43d320cfc087:Chapter 2/week2lecture.cpp
