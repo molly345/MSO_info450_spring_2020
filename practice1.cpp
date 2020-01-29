@@ -11,14 +11,19 @@ int main()
 {
     double number, exponent, result; 
 
-    cout << "Enter a positive number: ";
-    cin >> number;
-
-   exponent = 2; 
-    result = pow(number, exponent); 
-    if(number >0){
-           cout << number << "^" << exponent << "= " << result; 
+do {
+     cout << "Enter a positive number: ";
+     cin >> number;
+if (number > 0) {
+       exponent = 2; 
+     result = pow(number, exponent); 
+     cout << number << "^" << exponent << "= " << result;  
     }
+else {
+    cout << " Please input a positive number.\n";
+     }
+
+} while ( number != 0); 
 
 return 0; 
 }
