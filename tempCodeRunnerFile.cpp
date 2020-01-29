@@ -17,7 +17,7 @@ do{
            break; 
        }
     }
-    if (prime)
+    if (i > (number/i))
     cout << number << " is prime.\n";
     else 
     cout << number << " is not prime.\n";
@@ -25,4 +25,3 @@ do{
 
 return 0; 
 }
-
