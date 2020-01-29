@@ -1,25 +1,28 @@
 #include <iostream>
-#include <cmath> 
 using namespace std; 
 
 int main()
-
 {
-    double number, exponent, result; 
-
-do {
-     cout << "Enter a positive number: ";
-     cin >> number;
-if (number > 0) {
-       exponent = 2; 
-     result = pow(number, exponent); 
-     cout << number << "^" << exponent << "= " << result;  
+    int number, i; 
+    bool prime = true; 
+  
+do{
+    cout <<"Input any number: ";
+    cin >> number;   
+    for(i = 2; i <= number/2; ++i)
+    {
+       if (number % i ==0)
+       {
+           prime = false; 
+           break; 
+       }
     }
-else {
-    cout << " Please input a positive number.\n";
-     }
-
-} while ( number != 0); 
+    if (prime)
+    cout << number << " is prime.\n";
+    else 
+    cout << number << " is not prime.\n";
+} while (number != 0); 
 
 return 0; 
 }
+
