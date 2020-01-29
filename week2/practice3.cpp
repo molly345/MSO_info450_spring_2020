@@ -11,5 +11,14 @@ using namespace std;
 
 int main()
 {
-    
+  const int RULE_ONE = 4;
+  const int RULE_TWO = 100; 
+  const int RULE_THREE = 400; 
+
+  do{
+      cout << "Enter a year value: "; 
+      cin >> year; 
+      if (year )
+  }
+
 }
